@@ -11,12 +11,12 @@ function HomePage() {
         <div className="absolute inset-0 bg-black/65"></div>
 
         {/* Content */}
-        <div className="relative flex h-full flex-col items-center justify-center">
-          <h1 className="relative bg-black/85 p-5 text-center font-anton text-4xl text-white drop-shadow-lg transition-all duration-200 ease-in-out hover:p-6">
+        <div className="relative flex h-full flex-col items-center justify-center pb-[200px]">
+          <h1 className="relative rounded bg-black/60 p-5 text-center font-anton text-4xl text-white drop-shadow-lg transition-all duration-200 ease-in-out hover:p-6 md:text-5xl">
             Welcome to OTBarbershop
           </h1>
 
-          <p className="mr-2 mt-6 text-center text-lg font-bold italic text-white drop-shadow-xl">
+          <p className="mr-2 mt-6 text-center text-lg font-bold italic text-white drop-shadow-xl md:text-xl">
             A modern barbershop experience where classic cuts meet clean style.
             Walk in confident, walk out sharper.
           </p>
